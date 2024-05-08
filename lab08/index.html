@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements Guide</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Discover Form Elements</h1>
+    </header>
+    <main>
+        <section>
+            <h2>1. Text Input</h2>
+            <p>Text inputs are great for gathering short, specific pieces of information like names, email addresses, or passwords.</p>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </form>
+        </section>
+        <section>
+            <h2>2. Textarea</h2>
+            <p>Textarea fields are perfect for collecting longer messages, comments, or feedback from users.</p>
+            <form>
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" placeholder="Enter your message" rows="4" required></textarea>
+            </form>
+        </section>
+        <section>
+            <h2>3. Checkbox</h2>
+            <p>Checkboxes allow users to select one or more options from a list of choices.</p>
+            <form>
+                <label>Select Your Interests:</label>
+                <div>
+                    <input type="checkbox" id="interest1" name="interest1" value="reading">
+                    <label for="interest1">Reading</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="interest2" name="interest2" value="sports">
+                    <label for="interest2">Sports</label>
+                </div>
+                <div>
+                    <input type="checkbox" id="interest3" name="interest3" value="music">
+                    <label for="interest3">Music</label>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>4. Radio Button</h2>
+            <p>Radio buttons are ideal for scenarios where users need to select a single option from a list of choices.</p>
+            <form>
+                <label>Select Your Gender:</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                </div>
+                <div>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </div>
+                <div>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h2>5. Select Dropdown</h2>
+            <p>Select dropdowns provide users with a list of options, allowing them to choose one from the available selections.</p>
+            <form>
+                <label for="country">Select Your Country:</label>
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select country</option>
+                    <option value="usa">United States</option>
+                    <option value="uk">United Kingdom</option>
+                    <option value="canada">Canada</option>
+                    <option value="australia">Australia</option>
+                </select>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
