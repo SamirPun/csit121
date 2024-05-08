@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 2px solid #ff6600;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #294ab7;
+    color: rgb(216, 235, 240);
+}
+
+tr:nth-child(even) {
+    background-color: #e499ff22;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: khaki
+}
+
+a:hover {
+    text-decoration: underline;
+}
