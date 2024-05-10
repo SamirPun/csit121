@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gautam Buddha - Contact</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Gautam Buddha</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="teachings.html">Teachings</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <hr>
+        <div class="contact-info">
+            <i>For more information and any question :</i>
+            <h2>Contact me at:</h2>
+            <a href="mailto:samirpun@gmail.com">samirpun@gmail.com</a>
+        </div>
+        <form method="post">
+            <h2>Please Provide Your Information</h2>
+            <label for="fname">Your First Name:</label>
+            <input type="text" id="fname" name="fname" maxlength="53" size="20">
+
+            <label for="lname">Your Last Name:</label>
+            <input type="text" id="lname" name="lname" maxlength="53" size="20">
+
+            <label for="email">Enter Your Email:</label>
+            <input type="email" id="email" name="email" placeholder="YourEmail@gmail.com" accesskey="E">
+
+            <label for="photo">Your Picture:</label>
+            <input type="file" name="photo" id="photo" accept="image/*">
+
+            <fieldset>
+                <legend>Countery name:</legend>
+                <label for="Country name">Choose one:</label>
+                <select name="Country name" id="country name">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="india" selected>India</option>
+                    <option value="australia">Australia</option>
+                    <option value="uk">United Kingdom</option>
+                </select>
+            </fieldset>
+
+            <hr>
+
+            <p>Do you want to know about Gautam Buddha :</p>
+            <label><input type="radio" name="subscribe" value="yes">Yes!</label><br>
+            <label><input type="radio" name="subscribe" value="no">No.</label><br>
+
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+
+            <label for="comment">Comments:</label>
+            <textarea name="comment" id="comment" rows="6" cols="50" maxlength="99" placeholder="Your comments go here."></textarea>
+        </form>
+    </main>
+    <aside>
+        <hr>
+        <div class="additional-info">
+            <p>For more information reach me out!</p>
+        </div>
+    </aside>
+    <footer>
+        <p>&copy; 2024 Gautam Buddha</p>
+    </footer>
+</body>
+</html>
